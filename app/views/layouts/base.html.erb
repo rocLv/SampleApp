@@ -24,7 +24,7 @@
     <%= csrf_meta_tags %>
 
     <title>
-      <%= strip_tags(yield(:title)) + " – " if content_for?(:title) %>
+      <%= strip_tags(yield(:my_title)) + " – " if content_for?(:my_title) %>
       Sample App
     </title>
   </head>
